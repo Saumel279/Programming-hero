@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio_video.html">Video</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your name:
+                    <input id="name" type="text" placeholder="your name">
+                </label>
+                <label for="email">Your email:
+                    <input type="email" name="" id="email" placeholder="your email">
+                </label>
+                <label for="password">Your password:
+                    <input type="password" name="" id="password" placeholder="your password">
+                </label>
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="vapa">
+                        <input type="radio" name="pitha"  id="vapa">vapa
+                    </label>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">chitoy
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or  more bhorta</legend>
+                    <label for="morich">
+                        <input type="checkbox" name="bhorta" id="morich">Morich
+                    </label>
+                    <label for="begun">
+                        <input type="checkbox" name="bhorta" id="begun">Begun
+                    </label>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
