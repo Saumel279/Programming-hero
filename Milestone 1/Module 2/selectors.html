@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selectors */
+        *{
+            /* margin: 0; */
+        }
+        p{
+            color: red;
+        }
+        #first{
+            background-color: black;
+        }
+        .holud, .y{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+            color: blue;
+        }
+        /* atribute selectors */
+        input[type="password"]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore Mixed Selectors</h1>
+    <p id = "first">My First line CSS</p>
+    <p class="y">My Second line CSS</p>
+    <p class="y">My Third line CSS</p>
+    <p class="y bold">My Fouth line CSS</p>
+    <p class="holud">My Fifth line CSS</p>
+    <p>My Sixth line CSS</p>
+    <p>My Sevem line CSS</p>
+
+    <ol>
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li class="bold holud">Class selector</li>
+        <li>Univerrsal selector</li>
+        <li>Attribute selector</li>
+    </ol>
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+</body>
+</html>

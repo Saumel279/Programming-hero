@@ -1,0 +1,28 @@
+.blog1{
+    color: darkgoldenrod;
+    border: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(74, 74, 232);
+}
+.blog2{
+    color: rgb(121, 246, 79);
+    border: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(100, 100, 238);
+    /* display: none; */
+    /* visibility: hidden;
+     */
+    
+}
+.blog3{
+    color: rgb(3, 16, 16);
+    border: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(91, 91, 232);
+}

@@ -1,0 +1,15 @@
+.blog{
+    color: black;
+    background-color: greenyellow;
+
+}
+.heading{
+    color: darkviolet;
+    background-color: black;
+}
+input[type="text"]{
+    background-color: black;
+}
+input[type="password"]{
+    background-color: blue;
+}

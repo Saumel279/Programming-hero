@@ -1,0 +1,30 @@
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    color: aquamarine;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px blue;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.puku{
+    color: rgb(255, 0, 255);
+    display: block;
+}
+.header{
+    height: 300px;
+    color: white;
+    background-color: greenyellow;
+    background-image: url('Screenshot\ 2025-03-14\ 133337.png');
+    /* background-repeat: repeat-y; */
+    background-size: contain;
+}
